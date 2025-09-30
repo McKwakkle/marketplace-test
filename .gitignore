@@ -1,0 +1,42 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup Files
+*.bak
+*.tmp
+*.temp
+
+# Log Files
+*.log
+
+# Personal/Development Notes
+notes.txt
+todo.txt
+draft/
+dev-notes/
+
+# Compressed Files (unless intentionally part of project)
+*.zip
+*.rar
+*.7z
+
+# Environment Variables (if you add any later)
+.env
+.env.local
+
+# Any future build outputs (if you add build tools later)
+dist/
+build/

@@ -1,0 +1,116 @@
+# OFA Marketplace - Tender Response Platform
+
+A responsive single-page website designed to serve as a comprehensive tender response platform for organizations associated with Once For All. The platform provides dual functionality: guiding recipients through the tender response process and offering guidance for organizations looking to issue tenders.
+
+## 🎯 Project Overview
+
+This website serves as a central hub for tender-related activities, featuring a clean, professional design that adheres to strict brand guidelines while providing an intuitive user experience across all devices.
+
+## ✨ Features
+
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Mobile-First Navigation**: Hamburger menu with smooth slide-in animation for mobile users
+- **Brand-Consistent Styling**: Implements exact brand colors and design standards
+- **Four Key Sections**:
+  - Who We Are - Company introduction and background
+  - Why Recipients - Explanation of selection criteria and processes  
+  - Next Steps - Step-by-step guide for tender responses
+  - Guidance - Resources for organizations issuing tenders
+- **Interactive Elements**: Hover effects, smooth scrolling, and animated transitions
+- **Professional Contact Section**: Easy access to support and communication channels
+
+## 🚀 Technical Specifications
+
+- **Framework**: Vanilla HTML5, CSS3, and JavaScript (no external dependencies)
+- **Font**: Google Fonts - Roboto (300, 400, 500, 700 weights)
+- **Max Content Width**: 1200px for optimal readability
+- **Browser Support**: Modern browsers with CSS Grid and Flexbox support
+
+## 🎨 Brand Colors
+
+- **Primary Gradient**: #280071 to #DA1884 (135° linear gradient)
+- **Section Headers**: #3B2D6D
+- **Body Text**: #6e6e6e (on white backgrounds)
+- **Footer**: #454E60
+- **White Sections**: #FFFFFF
+
+## 📁 Project Structure
+
+```
+project-root/
+├── index.html          # Main HTML file
+├── styles.css          # All CSS styling
+├── script.js          # JavaScript functionality
+├── images/            # Image assets directory
+│   ├── OnceForAll_-_White.png    # Header logo
+│   ├── Pink icon.png             # Favicon
+│   └── backgrounds/              # Background images (optional)
+└── README.md          # Project documentation
+```
+
+## 🛠️ Setup Instructions
+
+1. **Clone or download** the project files to your local machine
+2. **Ensure all files** are in the correct structure as shown above
+3. **Add your images** to the `images/` directory:
+   - Company logo (white version for header)
+   - Favicon (pink icon)
+   - Background images (optional, stored in `images/backgrounds/`)
+4. **Open `index.html`** in your web browser to view the site
+5. **For development**: Use VS Code or your preferred editor
+
+## 📱 Responsive Behavior
+
+- **Desktop (768px+)**: Full horizontal navigation with hover effects
+- **Mobile (<768px)**: Hamburger menu with slide-in navigation panel
+- **Header**: Transparent initially, becomes opaque on scroll
+- **Animations**: Fade-in effects for sections, smooth transitions throughout
+
+## 🔧 Key JavaScript Features
+
+- Header transparency toggle on scroll
+- Mobile hamburger menu functionality
+- Smooth scrolling navigation
+- Menu auto-close on link selection
+- Overlay click-to-close functionality
+
+## 🎯 Deployment
+
+The site is designed for deployment on **Ionos hosting platform** but can be hosted on any standard web hosting service that supports static HTML/CSS/JS files.
+
+### Deployment Steps:
+1. Upload all files maintaining the directory structure
+2. Ensure `index.html` is in the root directory
+3. Verify all image paths are correct
+4. Test responsive functionality across devices
+
+## 🖥️ Browser Compatibility
+
+- Chrome (latest)
+- Firefox (latest)  
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 📞 Support
+
+For technical support or project inquiries:
+- **Email**: kellan@onceforall.com
+- **Phone**: 12345678
+
+## 📄 License
+
+© 2025 Once For All. All rights reserved.
+
+## 🔄 Future Enhancements
+
+Potential areas for future development:
+- GDPR-compliant cookie policy integration
+- Advanced form handling for tender submissions  
+- Dynamic content management system integration
+- Multi-language support
+- Enhanced accessibility features
+
+---
+
+*This project emphasizes clean, maintainable code architecture while delivering a professional user experience that reflects the high standards of the Once For All organization.*
