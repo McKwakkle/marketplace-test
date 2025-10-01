@@ -253,6 +253,17 @@ nav a:hover {
 .guidance-icon {
     font-size: 48px;
     margin-bottom: 20px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guidance-icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    filter: brightness(0) invert(1); /* Makes icons white to match the emoji style */
 }
 
 footer {
